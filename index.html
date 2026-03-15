@@ -3,22 +3,30 @@
 
 <head>
 <meta charset="UTF-8">
-<title>D Kishore | Senior Full Stack Engineer</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>D Kishore | Solutions Architect</title>
 
 <link rel="stylesheet" href="styles.css">
+
 </head>
+
 
 <body>
 
-<header>
 
-<h1>D Kishore</h1>
-<p>Senior Software Engineer | Full Stack Developer | Solutions Architect</p>
+<header class="navbar">
 
-<nav>
+<div class="logo">DK</div>
+
+<div class="menu-toggle" id="menu-toggle">
+☰
+</div>
+
+<nav id="nav-menu">
 <a href="#about">About</a>
-<a href="#skills">Skills</a>
+<a href="#expertise">Expertise</a>
+<a href="#skills">Tech Stack</a>
 <a href="#projects">Projects</a>
 <a href="#contact">Contact</a>
 </nav>
@@ -26,56 +34,137 @@
 </header>
 
 
-<section id="hero">
 
-<h2>Building Scalable Web Applications</h2>
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>D Kishore</h1>
+
+<h2>Solutions Architect | Designing Scalable Technical Platforms</h2>
 
 <p>
-Full-Stack Engineer specializing in React, .NET, and enterprise architecture.
-Experienced in building reusable UI frameworks, micro-frontend systems,
-and scalable backend APIs.
+Building scalable distributed systems and modern web platforms
+using cloud-native architecture, event-driven systems and
+modern JavaScript ecosystems.
 </p>
 
-<button onclick="scrollToSection('contact')">Contact Me</button>
+<p class="hero-tech">
+React • Node.js • Kafka • Elasticsearch • AWS • TypeScript • MERN • CloudOps • CI/CD • Docker
+</p>
+
+<div class="hero-buttons">
+
+<a class="btn primary" href="#projects">View Projects</a>
+
+<a class="btn secondary"
+href="https://github.com/d-kishorekumar"
+target="_blank">
+GitHub
+</a>
+
+<a class="btn secondary"
+href="https://www.linkedin.com/in/d-kishore/"
+target="_blank">
+LinkedIn
+</a>
+
+</div>
+
+</div>
 
 </section>
 
 
-<section id="about">
+
+<section id="about" class="section">
 
 <h2>About Me</h2>
 
 <p>
-I am a Senior Software Engineer with strong experience designing and
-building enterprise web applications. I specialize in modern frontend
-architectures using React and TypeScript along with backend systems
-using .NET and SQL Server.
+Solutions Architect and Senior Software Engineer experienced
+in designing scalable enterprise platforms. My focus is on
+modern frontend architectures, distributed backend systems,
+and cloud-native infrastructure.
 </p>
 
 <p>
-I enjoy designing scalable architectures, building reusable UI
-libraries, and helping teams deliver high-quality products.
+I enjoy designing reusable platforms, building scalable
+developer frameworks and improving engineering productivity
+through architecture and automation.
 </p>
 
 </section>
 
 
 
-<section id="skills">
+<section id="expertise" class="section">
 
-<h2>Technical Skills</h2>
+<h2>Core Expertise</h2>
 
 <div class="grid">
 
-<div class="card">React / TypeScript</div>
-<div class="card">Micro-Frontend Architecture</div>
-<div class="card">Ant Design</div>
-<div class="card">Storybook</div>
-<div class="card">.NET (C#)</div>
-<div class="card">REST APIs</div>
-<div class="card">SQL Server</div>
+<div class="card">
+<h3>Frontend Platforms</h3>
+<p>React, TypeScript, scalable UI frameworks</p>
+</div>
+
+<div class="card">
+<h3>Backend Systems</h3>
+<p>Node.js, .NET APIs and distributed services</p>
+</div>
+
+<div class="card">
+<h3>Search Platforms</h3>
+<p>Elasticsearch and Azure AI Search</p>
+</div>
+
+<div class="card">
+<h3>Cloud Architecture</h3>
+<p>AWS, Azure and scalable infrastructure</p>
+</div>
+
+<div class="card">
+<h3>Event Systems</h3>
+<p>Kafka driven microservice architectures</p>
+</div>
+
+<div class="card">
+<h3>DevOps</h3>
+<p>CI/CD, Docker and CloudOps</p>
+</div>
+
+</div>
+
+</section>
+
+
+
+<section id="skills" class="section">
+
+<h2>Tech Stack</h2>
+
+<div class="grid">
+
+<div class="card">React</div>
+<div class="card">TypeScript</div>
+<div class="card">JavaScript</div>
+<div class="card">React Native</div>
+<div class="card">Hybrid Apps</div>
+
+<div class="card">Node.js</div>
+<div class="card">Kafka</div>
+
+<div class="card">Elasticsearch</div>
+<div class="card">Azure AI Search</div>
+
+<div class="card">AWS</div>
 <div class="card">Azure</div>
-<div class="card">System Design</div>
+
+<div class="card">Docker</div>
+<div class="card">CI/CD</div>
+
+<div class="card">MERN Stack</div>
 
 </div>
 
@@ -83,56 +172,35 @@ libraries, and helping teams deliver high-quality products.
 
 
 
-<section id="projects">
+<section id="projects" class="section">
 
-<h2>Projects</h2>
+<h2>Open Source Projects</h2>
 
-<div class="project">
+<p>Repositories automatically loaded from GitHub.</p>
 
-<h3>React UI Component Library</h3>
-
-<p>
-Developed a reusable enterprise UI component framework using React,
-TypeScript, Ant Design wrappers, and Storybook documentation.
-</p>
-
-</div>
-
-
-<div class="project">
-
-<h3>Micro-Frontend Platform</h3>
-
-<p>
-Implemented a scalable micro-frontend architecture using React Module
-Federation enabling independent deployments for multiple teams.
-</p>
-
-</div>
+<div id="github-projects" class="projects"></div>
 
 </section>
 
 
 
-<section id="contact">
+<section id="contact" class="section">
 
 <h2>Contact</h2>
 
-<p>Email: kishore@example.com</p>
+<p>Feel free to connect with me.</p>
 
-<p>
-LinkedIn:
-<a href="https://www.linkedin.com/in/d-kishore/" target="_blank">
-linkedin.com/in/d-kishore
-</a>
-</p>
+<div class="contact-links">
 
-<p>
-GitHub:
 <a href="https://github.com/d-kishorekumar" target="_blank">
-github.com/d-kishorekumar
+GitHub
 </a>
-</p>
+
+<a href="https://www.linkedin.com/in/d-kishore/" target="_blank">
+LinkedIn
+</a>
+
+</div>
 
 </section>
 
@@ -144,7 +212,9 @@ github.com/d-kishorekumar
 
 </footer>
 
+
 <script src="script.js"></script>
 
 </body>
+
 </html>
